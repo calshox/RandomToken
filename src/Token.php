@@ -24,13 +24,8 @@ class Token
 
     ];
 
-    public static function world()
-    {
-        return 'Hello World, Composer!';
-    }
 
-
-    private function crypto_rand_secure($min, $max)
+    private static function crypto_rand_secure($min, $max)
     {
         $range = $max - $min;
         if ($range < 1) return $min; // not so random...
