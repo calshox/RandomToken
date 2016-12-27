@@ -82,7 +82,7 @@ class RandomToken
      * @param string $customAlphabet
      * @return string
      */
-    public function generatePrefix($prefix, $length, $alphabet = self::ALL, $customAlphabet = "")
+    public static function generatePrefix($prefix, $length, $alphabet = self::ALL, $customAlphabet = "")
     {
         return $prefix.self::generate($length, $alphabet, $customAlphabet);
     }
