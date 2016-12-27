@@ -1,0 +1,25 @@
+{
+    "name": "calshox/randomtoken",
+    "description": "Random token generator with custom length",
+    "type": "library",
+    "keywords": ["hash","token"],
+    "homepage": "https://github.com/calshox/RandomToken",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Vázquez",
+            "email": "contacto.cvazquez@gmail.com",
+            "homepage": "https://github.com/calshox",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "RandomToken": "src/"
+        }
+    }
+}
