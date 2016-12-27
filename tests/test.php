@@ -3,6 +3,6 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use RandomToken\Token;
+use Shox\RandomToken;
 
-echo Token::generate(8, Token::UPPERCASE);
+echo RandomToken::generate(8, RandomToken::UPPERCASE);

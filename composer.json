@@ -1,5 +1,5 @@
 {
-    "name": "calshox/randomtoken",
+    "name": "shox/randomtoken",
     "description": "Random token generator with custom length",
     "type": "library",
     "keywords": ["hash","token"],
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RandomToken\\": "src\\"
+            "Shox\\": "src\\"
         }
     }
 }
